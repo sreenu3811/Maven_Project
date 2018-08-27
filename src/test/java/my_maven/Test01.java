@@ -21,7 +21,7 @@ public class Test01 {
 	@Test
 	public void test_01()
 	{
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.google.com/");
 		String title_page = driver.getTitle();
 		System.out.println(title_page);
 		
